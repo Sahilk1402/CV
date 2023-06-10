@@ -1,0 +1,225 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{}{\Large Sahil Kumarwar}} & Email : \href{mailto:imsahil1402@gmail.com}{imsahil1402@gmail.com}\\
+  \href{https://www.linkedin.com/in/sahil-kumarwar-871262248/}{Linkedin/Sahil Kumarwar} & Mobile : 7391816297 \\
+  \href{https://github.com/Sahilk1402}{Github.com/Sahilk1402}
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Veermata Jijabai Technological Institute}{Mumbai}
+      {BTech in Electronics Engineering; CPI:7.67}{2020-Present}
+    \resumeSubheading
+      {Dr. Ambedkar College}{Nagpur}
+      {HSC from Maharashtra State Board; Percentage: 80}{2019-2020}
+        \resumeSubheading
+      {Modern School}{Nagpur}
+      {SSC from CBSE Board; Percentage: 88}{2017-2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bolt IoT}{Remote}
+      {Web Developer Intern}{August 22 - October 22}
+      \resumeItemListStart
+        \resumeItem{Inventrom website}
+          {Designed and developed the official website for Inventrom.com using HTML, CSS, and JavaScript. Created a visually appealing and user-friendly interface with responsive design.}
+        \resumeItem{Photo Gallery}
+          {Created an interactive Photo Gallery web app using HTML, CSS, JavaScript, and Bootstrap. Implemented user-friendly interface, dynamic functionality, and responsive design}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {IoT Master Class}{IEEE VJTI}
+      {Workshop}{April 2022}
+      \resumeItemListStart
+        \resumeItem{LDR Module}
+          {Mastered Arduino Uno through an intensive masterclass, gaining programming and hardware integration expertise. Acquired skills in designing and building projects using Arduino Uno, including sensor integration and prototyping..}
+        \resumeItem{Dark and Light Detector using LDR sensor module and Arduino}
+          {Developed a Dark and Light Detector project using an LDR sensor module and Arduino, including writing the code for accurate light detection and automated responses. Designed and implemented hardware integration, circuit design, and Arduino programming.}        
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Drum Kit}
+      {Designed a dynamic website using HTML, CSS, and JavaScript, incorporating key event listeners for keystrokes and CSS animations to create a virtual drum kit.}
+    \resumeSubItem{Simon Game}
+        {Developed an engaging game using HTML, CSS, JavaScript, jQuery, and Bootstrap-5. Implemented interactive features and responsive design to enhance user experience.}
+    \resumeSubItem{TinDog}
+      {Created a simple and visually appealing website using HTML, CSS, and Bootstrap-5. Utilized Bootstrap Media to develop a platform to find the perfect dog match.}
+    \resumeItem{WhatsApp Chat Analysis}{Created a WhatsApp chat analysis project utilizing Python and data visualization techniques. Extracted and processed chat data to gain insights into message frequency, popular topics, and user activity patterns. Presented findings using graphs and charts to facilitate understanding and decision-making}
+    \resumeSubItem{Crime Rate Analysis in India}
+      {Conducted in-depth analysis of crime rates in India, showcasing trends and statistics for murders, assaults, shoplifting, and robbery across different states. Utilized data visualization techniques to present insights effectively.}
+      \resumeSubItem{Diabetes Prediction using Python and SVM}
+      {Developed a predictive model for diabetes using Python and Support Vector Machines (SVM). Utilized machine learning algorithms to analyze medical data and predict the likelihood of diabetes onset.}
+      \resumeSubItem{Relay Module with Arduino}
+      {Constructed a system using a Channel Relay Module with optocoupler isolation, enabling remote control of LED lights via a mobile device using Bluetooth.}
+      \resumeSubItem{Dual Axis Solar Tracker}
+      {Designed and built a dual-axis solar tracker using Arduino and LDR sensors to ensure optimal positioning of solar panels to maximize energy generation. Wrote code to control the movement of the tracker based on the readings from the LDRs. }
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Python, HTML, CSS, Javascript, C++, SQL}
+     \hfill}
+     \item{
+     \textbf{Technologies/Frameworks}{: BootStrap, jQuery, NodeJs,ExpressJs, EJS, APIs}
+   }
+    \item{
+     \textbf{Others}{: Git,VSCode, Jupyter, PyCharm}
+   }
+    \item{
+     \textbf{Soft Skills}{: Responsible, Fast Learner, Positive, Problem-Solving, Time Management.}
+   }
+ \resumeSubHeadingListEnd
+
+%-------------------------------------------
+%----------------Certifications----------------%
+\section{Courses And Certifications}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{C++ Programming}{: C++ from beginner to beyond offered by Udemy.}
+     \hfill}
+     \item{
+     \textbf{Python Programming}{: Python for Everybody offered by Coursera.}
+   }
+    \item{
+     \textbf{Python Programming}{: 100 Days of Python offered by Udemy.}
+   }
+    \item{
+     \textbf{Data Structures and Algorithms}{: The Complete Data Structures and Algorithms Course in Python offered by Udemy}
+   }
+
+    \item{
+     \textbf{Web Development}{: Compelete Web Development Bootcamp offered by Udemy}
+   }
+   \item{
+     \textbf{Microsoft 365}{:  Microsoft 365 Fundamentals offered by Coursera}
+   }
+ \resumeSubHeadingListEnd
+
+ \section{Extra Curricular}
+ \resumeSubHeadingListStart
+ \item{
+ \text{Achieved 1st rank in the Inter-House Chess Competition}
+ }
+ \item{
+ \text{Achieved A grade in Intermediate Drawing Examination}
+ }
+ \item{
+ \text{Achieved 2nd rank in Gamer's Enclave organised by Technovanza,VJTI}
+ }
+ \resumeItemListEnd
+
+ \section{Hobbies}
+ \resumeSubHeadingListStart
+ \item{
+ \text{Photography}
+ }
+ \item{
+ \text{Gaming}
+ }
+  \item{
+ \text{Watching Movies and Anime}
+ }
+  \item{
+ \text{Cooking}
+ }
+  \item{
+ \text{Travelling}
+ }
+ \item{
+ \text{Stocks and Trading}
+ }
+ \resumeSubHeadingListEnd
+ 
+
+\end{document}
